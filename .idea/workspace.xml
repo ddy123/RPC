@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="782bd3fc-08fe-4c1b-9a75-11f663f87805" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/Client/IOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/Client/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/Client/proxy/ClientProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/Server/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/Server/provider/ServiceProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/Server/server/RpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/Server/server/impl/SimpleRPCServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/Server/server/impl/ThreadPoolRPCServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/Server/server/work/WorkThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/common/Message/RpcRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/common/Message/RpcResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/common/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/common/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/part1/common/service/UserService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2y57k2LZtLeTtttNOHyM0dR2yeh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TestClient.executor": "Run",
+    "Application.TestServer.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/code/tools/PRC/version1/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.TestClient">
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part1.Client.TestClient" />
+      <module name="version1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part1.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part1.Server.TestServer" />
+      <module name="version1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part1.Server.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestClient" />
+        <item itemvalue="Application.TestServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="782bd3fc-08fe-4c1b-9a75-11f663f87805" name="Changes" comment="" />
+      <created>1749112721648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749112721648</updated>
+      <workItem from="1749112722682" duration="8027000" />
+      <workItem from="1749178658577" duration="312000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/version1/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
