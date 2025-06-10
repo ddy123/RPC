@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 @Builder
@@ -16,4 +18,5 @@ public class User implements Serializable {
     private Integer id;
     private String userName;
     private Boolean sex;
+
 }
