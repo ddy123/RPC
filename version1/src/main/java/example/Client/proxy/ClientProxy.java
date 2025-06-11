@@ -13,8 +13,8 @@ import java.lang.reflect.Proxy;
 
 public class ClientProxy implements InvocationHandler {
    private RpcClient rpcClient;
-   public ClientProxy(){
-               rpcClient=new NettyRpcClient();
+   public ClientProxy() throws InterruptedException {
+       rpcClient=new NettyRpcClient();
    }
 
     //jdk动态代理，每一次代理对象调用方法，都会经过此方法增强(反射获取request对象，socket发送到服务端)
