@@ -35,6 +35,7 @@ public class ServiceProvider {
             interfaceProvider.put(clazz.getName(),service);
             //在注册中心注册 接口名：ip：port
             serviceRegister.register(clazz.getName(),new InetSocketAddress(host,port));
+
         }
     }
     //根据接口名到注册中心查找服务的地址，访问具体的服务地址然后根据接口名找到具体的实例

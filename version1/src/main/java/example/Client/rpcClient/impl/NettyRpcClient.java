@@ -38,9 +38,10 @@ public class NettyRpcClient implements RpcClient {
     public RpcResponse sendRequest(RpcRequest request) {
         InetSocketAddress address=serviceCenter.serviceDiscovery(request.getInterfaceName());
         String host=address.getHostName();
+        //System.out.println("我是host:"+host);
         int port=address.getPort();
         try {
-            //创建一个channelFuture对象，代表这一个操作事件，sync表示阻塞直到conneext完成
+            //创建一个channelFuture对象，代表这一个操作事件，sync表示阻塞直到connect完成
             ChannelFuture channelFuture=bootstrap.connect(host,port).sync();
             //channel表示一个连接的单位，类似socket
             Channel channel=channelFuture.channel();

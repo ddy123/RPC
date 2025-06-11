@@ -5,6 +5,7 @@ package example.Client.serviceCenter;/*
 
 import example.Client.cache.serviceCache;
 import example.Client.serviceCenter.ZkWatcher.watchZK;
+import example.Client.serviceCenter.balance.impl.ConsistencyHashBalance;
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
@@ -50,8 +51,10 @@ public class ZKServiceCenter implements ServiceCenter{
                 serviceList=client.getChildren().forPath("/"+serviceName);
             }
             // 这里默认用的第一个，后面加负载均衡
-            String string=serviceList.get(0);
-            return parseAddress(string);
+            //String string=serviceList.get(0);
+            //根据负载均衡得到地址
+            String address=new ConsistencyHashBalance().balance(serviceList);
+            return parseAddress(address);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

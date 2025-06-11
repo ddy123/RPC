@@ -4,9 +4,15 @@ import example.Client.proxy.ClientProxy;
 import example.common.pojo.User;
 import example.common.service.UserService;
 
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
+import java.net.UnknownHostException;
+
 public class TestClient {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, UnknownHostException {
+        System.out.println(InetAddress.getLocalHost().getHostName());
+        System.out.println(new InetSocketAddress("127.0.0.1",9999).getHostName());
         ClientProxy clientProxy=new ClientProxy();
         //ClientProxy clientProxy=new ClientProxy("127.0.0.1",9999,0);
         UserService proxy=clientProxy.getProxy(UserService.class);

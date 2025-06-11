@@ -31,6 +31,7 @@ public class ZKServiceRegister implements ServiceRegister {
     //注册到服务中心
     @Override
     public void register(String serviceName, InetSocketAddress serviceAddress) {
+        //System.out.println("我是路径"+serviceAddress);
         try {
             if(client.checkExists().forPath("/"+serviceName)==null){
                 //serviceName创建成永久节点，服务提供者下线时，不删服务名，只删地址
@@ -38,6 +39,9 @@ public class ZKServiceRegister implements ServiceRegister {
             }
             //路径地址，一个/代表一个节点
             String path="/"+serviceName+"/"+getServiceAddress(serviceAddress);
+            //System.out.println("我是serviceName"+serviceName);
+            //System.out.println("我是路径"+getServiceAddress(serviceAddress));
+            //System.out.println("我是path:"+path);
             //临时节点，服务器下线就删除节点
             //即保留服务名
             //creatingParentsIfNeeded()如果父节点不存在则先创建父节点，这里是serviceName
@@ -46,8 +50,9 @@ public class ZKServiceRegister implements ServiceRegister {
             System.out.println("此服务已存在");
         }
     }
-    //地址->xxx.xxx.xxx.xxx:port字符串
+    //地址->域名:port字符串
     private String getServiceAddress(InetSocketAddress serviceAddress){
+        //在这里将ip转换为了域名
         return serviceAddress.getHostName()+
         ":"+ serviceAddress.getPort();
     }
