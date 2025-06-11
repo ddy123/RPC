@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782bd3fc-08fe-4c1b-9a75-11f663f87805" name="Changes" comment="add zookeeper wathcer">
-      <change afterPath="$PROJECT_DIR$/version1/src/main/java/example/Client/serviceCenter/balance/LoadBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/version1/src/main/java/example/Client/serviceCenter/balance/impl/ConsistencyHashBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/version1/src/main/java/example/Client/serviceCenter/balance/impl/RandomLoadBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/version1/src/main/java/example/Client/serviceCenter/balance/impl/RoundLoadBalance.java" afterDir="false" />
+    <list default="true" id="782bd3fc-08fe-4c1b-9a75-11f663f87805" name="Changes" comment="add LoadBalance Algorithm">
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/example/Client/retry/guavaRetry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Client/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Client/TestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Client/rpcClient/impl/NettyRpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Client/rpcClient/impl/NettyRpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/version1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Client/serviceCenter/ServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Client/serviceCenter/ServiceCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Client/serviceCenter/ZKServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Client/serviceCenter/ZKServiceCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Server/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Server/TestServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Server/provider/ServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Server/provider/ServiceProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Server/serviceRegister/ServiceRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Server/serviceRegister/ServiceRegister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Server/serviceRegister/impl/ZKServiceRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Server/serviceRegister/impl/ZKServiceRegister.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +127,7 @@
       <updated>1749112721648</updated>
       <workItem from="1749112722682" duration="8027000" />
       <workItem from="1749178658577" duration="42037000" />
-      <workItem from="1749524366598" duration="32103000" />
+      <workItem from="1749524366598" duration="35127000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -194,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749610515332</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add LoadBalance Algorithm">
+      <option name="closed" value="true" />
+      <created>1749629446092</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749629446092</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +214,8 @@
     <MESSAGE value="add zookeeper" />
     <MESSAGE value="add customized encoder/decoder" />
     <MESSAGE value="add zookeeper wathcer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add zookeeper wathcer" />
+    <MESSAGE value="add LoadBalance Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LoadBalance Algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

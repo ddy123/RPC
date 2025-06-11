@@ -24,17 +24,17 @@ public class ServiceProvider {
     }
 
     //这里的service是个接口实现类
-    public void providerServiceInterface(Object service){
+    public void providerServiceInterface(Object service,boolean canRetry){
         //获取类名
         String servicename=service.getClass().getName();
-        System.out.println("我是类名称:"+servicename);
+        //System.out.println("我是类名称:"+servicename);
         //获取该类的接口
         Class<?>[] interfaceName=service.getClass().getInterfaces();
         for(Class<?> clazz:interfaceName){
             //本地映射  接口名：接口的具体实现类
             interfaceProvider.put(clazz.getName(),service);
             //在注册中心注册 接口名：ip：port
-            serviceRegister.register(clazz.getName(),new InetSocketAddress(host,port));
+            serviceRegister.register(clazz.getName(),new InetSocketAddress(host,port),canRetry);
 
         }
     }
