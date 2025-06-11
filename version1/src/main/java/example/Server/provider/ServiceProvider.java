@@ -1,5 +1,6 @@
 package example.Server.provider;
 
+import example.Server.ratelimit.provider.RateLimitProvider;
 import example.Server.serviceRegister.ServiceRegister;
 import example.Server.serviceRegister.impl.ZKServiceRegister;
 
@@ -14,12 +15,15 @@ public class ServiceProvider {
     private ServiceRegister serviceRegister;
     private int port;
     private String host;
+    //限流器
+    private RateLimitProvider rateLimitProvider;
     public ServiceProvider(String host,int port){
         //需要传入服务端自身的网络地址
         this.host=host;
         this.port=port;
         this.interfaceProvider=new HashMap<>();
         this.serviceRegister=new ZKServiceRegister();
+        this.rateLimitProvider=new RateLimitProvider();
 
     }
 
@@ -41,4 +45,7 @@ public class ServiceProvider {
     //根据接口名到注册中心查找服务的地址，访问具体的服务地址然后根据接口名找到具体的实例
     //通过接口名称获取服务实例
     public Object getService(String interfaceName){return  interfaceProvider.get(interfaceName);}
+    public RateLimitProvider getRateLimitProvider(){
+        return rateLimitProvider;
+    }
 }

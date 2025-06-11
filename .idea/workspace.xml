@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782bd3fc-08fe-4c1b-9a75-11f663f87805" name="Changes" comment="add LoadBalance Algorithm">
-      <change afterPath="$PROJECT_DIR$/version1/src/main/java/example/Client/retry/guavaRetry.java" afterDir="false" />
+    <list default="true" id="782bd3fc-08fe-4c1b-9a75-11f663f87805" name="Changes" comment="add retry used by guavaRetry">
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/example/Server/ratelimit/RateLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/example/Server/ratelimit/impl/TokenBucketRateLimitImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/version1/src/main/java/example/Server/ratelimit/provider/RateLimitProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/version1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Client/serviceCenter/ServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Client/serviceCenter/ServiceCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Client/serviceCenter/ZKServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Client/serviceCenter/ZKServiceCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Server/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Server/TestServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Server/netty/handler/NettyRPCServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Server/netty/handler/NettyRPCServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Server/provider/ServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Server/provider/ServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Server/serviceRegister/ServiceRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Server/serviceRegister/ServiceRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version1/src/main/java/example/Server/serviceRegister/impl/ZKServiceRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/version1/src/main/java/example/Server/serviceRegister/impl/ZKServiceRegister.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +124,7 @@
       <updated>1749112721648</updated>
       <workItem from="1749112722682" duration="8027000" />
       <workItem from="1749178658577" duration="42037000" />
-      <workItem from="1749524366598" duration="35127000" />
+      <workItem from="1749524366598" duration="37942000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -201,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749629446092</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add retry used by guavaRetry">
+      <option name="closed" value="true" />
+      <created>1749633017023</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749633017023</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +220,8 @@
     <MESSAGE value="add customized encoder/decoder" />
     <MESSAGE value="add zookeeper wathcer" />
     <MESSAGE value="add LoadBalance Algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LoadBalance Algorithm" />
+    <MESSAGE value="add retry used by guavaRetry" />
+    <option name="LAST_COMMIT_MESSAGE" value="add retry used by guavaRetry" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
