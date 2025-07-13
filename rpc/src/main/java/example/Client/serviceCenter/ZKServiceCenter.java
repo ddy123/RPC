@@ -78,6 +78,11 @@ public class ZKServiceCenter implements ServiceCenter{
         return canRetry;
     }
 
+    @Override
+    public void close() {
+        client.close();
+    }
+
     private String getServiceAddress(InetSocketAddress serverAddress){
         return serverAddress.getHostName()+
                 ":"+

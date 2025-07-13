@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782bd3fc-08fe-4c1b-9a75-11f663f87805" name="Changes" comment="add pictures">
-      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="782bd3fc-08fe-4c1b-9a75-11f663f87805" name="Changes" comment="add modules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/Client/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/example/Client/TestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/Server/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/example/Server/TestServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/Server/serviceRegister/impl/ZKServiceRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/example/Server/serviceRegister/impl/ZKServiceRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/common/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/example/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/common/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/example/common/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/common/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/example/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/org/example/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/example/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/Client/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/ConsumerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/Client/proxy/ClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/example/Client/proxy/ClientProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/Client/rpcClient/RpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/example/Client/rpcClient/RpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/Client/serviceCenter/ServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/example/Client/serviceCenter/ServiceCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/Client/serviceCenter/ZKServiceCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/example/Client/serviceCenter/ZKServiceCenter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,13 +97,13 @@
       <recent name="D:\code\tools\PRC\rpc\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestClient">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part1.Client.Test" />
-      <module name="version1" />
+  <component name="RunManager" selected="Application.ConsumerTest">
+    <configuration name="ConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ConsumerTest" />
+      <module name="consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.Client.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.Client.TestClient" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part1.Client.Test" />
       <module name="version1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.Client.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,7 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestClient" />
+        <item itemvalue="Application.ConsumerTest" />
         <item itemvalue="Application.TestServer" />
         <item itemvalue="Application.Test" />
       </list>
@@ -179,7 +174,7 @@
       <workItem from="1751872120781" duration="36000" />
       <workItem from="1752130595921" duration="351000" />
       <workItem from="1752138528536" duration="109000" />
-      <workItem from="1752395204713" duration="2877000" />
+      <workItem from="1752395204713" duration="4187000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -309,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749728926978</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add modules">
+      <option name="closed" value="true" />
+      <created>1752398158440</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1752398158441</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +330,9 @@
     <MESSAGE value="add rate limiting" />
     <MESSAGE value="add circuitBreaker" />
     <MESSAGE value="add pictures" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pictures" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="add modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="add modules" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

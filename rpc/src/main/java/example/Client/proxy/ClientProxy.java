@@ -66,4 +66,8 @@ public class ClientProxy implements InvocationHandler {
         Object o= Proxy.newProxyInstance(clazz.getClassLoader(),new Class[]{clazz},this);
         return (T)o;
     }
+    public void close(){
+       rpcClient.close();
+       serviceCenter.close();
+    }
 }

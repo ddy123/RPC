@@ -17,6 +17,6 @@ public class User implements Serializable {
     //客户端和服务端共有的
     private Integer id;
     private String userName;
-    private Boolean sex;
+    private Boolean gender;
 
 }
