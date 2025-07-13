@@ -1,7 +1,7 @@
 package example.common.service.Impl;
 
-import example.common.pojo.User;
-import example.common.service.UserService;
+import org.example.pojo.User;
+import org.example.service.UserService;
 
 import java.util.Random;
 import java.util.UUID;

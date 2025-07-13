@@ -59,7 +59,7 @@ public class ZKServiceRegister implements ServiceRegister {
     }
     //地址->域名:port字符串
     private String getServiceAddress(InetSocketAddress serviceAddress){
-        //在这里将ip转换为了域名
+        //在这里将ip转换为了域名+端口
         return serviceAddress.getHostName()+
         ":"+ serviceAddress.getPort();
     }

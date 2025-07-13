@@ -4,7 +4,7 @@ import example.Server.provider.ServiceProvider;
 import example.Server.server.RpcServer;
 import example.Server.server.impl.NettyRPCServer;
 import example.common.service.Impl.UserServiceImpl;
-import example.common.service.UserService;
+import org.example.service.UserService;
 
 public class TestServer {
     public static void main(String[] args){

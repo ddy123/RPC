@@ -4,8 +4,6 @@ import example.Client.proxy.ClientProxy;
 import example.common.pojo.User;
 import example.common.service.UserService;
 
-import java.net.InetAddress;
-import java.net.InetSocketAddress;
 import java.net.UnknownHostException;
 
 public class TestClient {

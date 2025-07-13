@@ -1,6 +1,6 @@
-package example.common.service;
+package org.example.service;
 
-import example.common.pojo.User;
+import org.example.pojo.User;
 
 public interface UserService {
     User getUserByUserId(Integer id);

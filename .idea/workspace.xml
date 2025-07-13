@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="782bd3fc-08fe-4c1b-9a75-11f663f87805" name="Changes" comment="add circuitBreaker">
+    <list default="true" id="782bd3fc-08fe-4c1b-9a75-11f663f87805" name="Changes" comment="add pictures">
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/Client/TestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/example/Client/TestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/Server/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/example/Server/TestServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/Server/serviceRegister/impl/ZKServiceRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/example/Server/serviceRegister/impl/ZKServiceRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/common/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/example/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/common/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc/src/main/java/example/common/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc/src/main/java/example/common/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/org/example/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +33,33 @@
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../environment/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -35,32 +68,40 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestServer.executor&quot;: &quot;Run&quot;,
-    &quot;Attach to process.pid 26000.executor&quot;: &quot;ProcessAttachDebug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/code/tools/PRC/version1/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test.executor": "Run",
+    "Application.TestClient.executor": "Run",
+    "Application.TestServer.executor": "Run",
+    "Attach to process.pid 26000.executor": "ProcessAttachDebug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/code/tools/PRC/common/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "com.goide.configuration.GoLibrariesConfigurableProvider",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\tools\PRC\rpc\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.TestClient">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part1.Client.Test" />
@@ -121,7 +162,24 @@
       <workItem from="1749178658577" duration="42037000" />
       <workItem from="1749524366598" duration="44657000" />
       <workItem from="1749715276681" duration="137000" />
-      <workItem from="1749716067095" duration="7456000" />
+      <workItem from="1749716067095" duration="9314000" />
+      <workItem from="1750001120250" duration="2146000" />
+      <workItem from="1750173600754" duration="73000" />
+      <workItem from="1750173736937" duration="123000" />
+      <workItem from="1750174362616" duration="311000" />
+      <workItem from="1750174824790" duration="5010000" />
+      <workItem from="1750253034606" duration="2454000" />
+      <workItem from="1750992851781" duration="166000" />
+      <workItem from="1750994297290" duration="4000" />
+      <workItem from="1751005309167" duration="1147000" />
+      <workItem from="1751115279926" duration="23000" />
+      <workItem from="1751424765920" duration="2076000" />
+      <workItem from="1751638467750" duration="4000" />
+      <workItem from="1751808663327" duration="612000" />
+      <workItem from="1751872120781" duration="36000" />
+      <workItem from="1752130595921" duration="351000" />
+      <workItem from="1752138528536" duration="109000" />
+      <workItem from="1752395204713" duration="2877000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -219,7 +277,39 @@
       <option name="project" value="LOCAL" />
       <updated>1749717501323</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add pictures">
+      <option name="closed" value="true" />
+      <created>1749728373794</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1749728373794</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add pictures">
+      <option name="closed" value="true" />
+      <created>1749728504801</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1749728504801</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add pictures">
+      <option name="closed" value="true" />
+      <created>1749728916990</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1749728916990</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add pictures">
+      <option name="closed" value="true" />
+      <created>1749728926978</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1749728926978</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +326,12 @@
     <MESSAGE value="add retry used by guavaRetry" />
     <MESSAGE value="add rate limiting" />
     <MESSAGE value="add circuitBreaker" />
-    <option name="LAST_COMMIT_MESSAGE" value="add circuitBreaker" />
+    <MESSAGE value="add pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pictures" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -251,11 +346,20 @@
           <line>13</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
