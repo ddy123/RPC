@@ -1,10 +1,11 @@
-package example.common.serializer.myCode;/*
+package commom.serializer.myCode;/*
  * @author ddy
  * @date 2025/6/10
  * */
 
-import example.common.Message.MessageType;
-import example.common.serializer.mySerializer.Serializer;
+
+import commom.Message.MessageType;
+import commom.serializer.mySerializer.Serializer;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;

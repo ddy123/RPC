@@ -6,11 +6,6 @@ import example.common.serializer.mySerializer.JsonSerializer;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
-import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
-import io.netty.handler.codec.LengthFieldPrepender;
-import io.netty.handler.codec.serialization.ClassResolver;
-import io.netty.handler.codec.serialization.ObjectDecoder;
-import io.netty.handler.codec.serialization.ObjectEncoder;
 import example.Client.netty.handler.NettyClientHandler;
 
 /*用于初始化客户端的Channel和ChannelPipeline.在Netty中，Channel是网络通信的基本单元

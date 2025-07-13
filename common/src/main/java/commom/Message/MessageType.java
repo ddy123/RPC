@@ -1,4 +1,4 @@
-package example.common.Message;
+package commom.Message;
 
 import lombok.AllArgsConstructor;
 

@@ -1,4 +1,4 @@
-package example.common.serializer.myCode;/*
+package commom.serializer.myCode;/*
  * @author ddy
  * @date 2025/6/10
  * */
@@ -6,7 +6,7 @@ package example.common.serializer.myCode;/*
 import example.common.Message.MessageType;
 import example.common.Message.RpcRequest;
 import example.common.Message.RpcResponse;
-import example.common.serializer.mySerializer.Serializer;
+import commom.serializer.mySerializer.Serializer;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;

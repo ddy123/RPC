@@ -5,7 +5,6 @@ import example.Client.circuitBreaker.CircuitBreakerProvider;
 import example.Client.retry.guavaRetry;
 import example.Client.rpcClient.RpcClient;
 import example.Client.rpcClient.impl.NettyRpcClient;
-import example.Client.rpcClient.impl.SimpleSocketRpcClient;
 import example.Client.serviceCenter.ServiceCenter;
 import example.Client.serviceCenter.ZKServiceCenter;
 import example.common.Message.RpcRequest;

@@ -1,4 +1,4 @@
-package example.common.serializer.mySerializer;/*
+package commom.serializer.mySerializer;/*
  * @author ddy
  * @date 2025/6/10
  * */

@@ -1,4 +1,4 @@
-package example.common.service.Impl;
+package org.example.Impl;
 
 import org.example.pojo.User;
 import org.example.service.UserService;
@@ -11,7 +11,7 @@ public class UserServiceImpl implements UserService {
     public User getUserByUserId(Integer id) {
         System.out.println("客户端查询了"+id+"的用户");
         Random random=new Random();
-        User user=User.builder().userName(UUID.randomUUID().toString()).id(id).sex(random.nextBoolean()).build();
+        User user=User.builder().userName(UUID.randomUUID().toString()).id(id).gender(random.nextBoolean()).build();
         return user;
     }
 

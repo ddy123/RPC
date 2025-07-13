@@ -1,4 +1,4 @@
-package example.common.serializer.mySerializer;
+package commom.serializer.mySerializer;
 
 public interface Serializer {
     //把对象序列化成字节数组
